@@ -14,7 +14,7 @@ async function rotateHue () {
         {
           hue: h,
           saturation: 1,
-          brightness: 0.3,
+          brightness: 0.5,
         }
     })
     await new Promise(res => setTimeout(res, delay))
